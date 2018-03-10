@@ -18,6 +18,7 @@ let data=JSON.parse(text);
 console.log(data);
 basicinfo(data.basics);
 eduinfo(data.education);
+skills(data.skills);
 });
 function basicinfo(basics){
   var first_child = document.querySelector(".profile");
@@ -71,4 +72,15 @@ function eduinfo(edu){
 }
     }
 
+}
+function skills(skill){
+ // console.log(skill.Languages.length);
+ var table=document.createElement("table");
+ table.border="1";
+ var row="";
+ for(var k=0;k<skill.length;k++){
+   row+="<tr><td><strong>"+skill[k].name+"</strong></td><td>"+skill[k].data+"</td></tr>";
+ }
+ table.innerHTML=row;
+ second_child.appendChild(table);
 }
