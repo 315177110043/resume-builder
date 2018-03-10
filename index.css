@@ -96,8 +96,7 @@ hr{
  width: 70%;
 }
 }
-@media screen and (min-width:780px)(max-width:1024
-px){
+@media screen and (min-width:780px)(max-width:1024px){
  .main{
  background: #ff0000;
  display: flex;
