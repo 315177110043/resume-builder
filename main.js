@@ -12,6 +12,8 @@ function getfile(file,callback)
  };
      xhr.send(null);
 }
+
+
 getfile("data.json",function(text)
 {
 let data=JSON.parse(text);
