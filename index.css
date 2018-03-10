@@ -1,3 +1,130 @@
-.exmaple{
-  background-color: "red"
+.main{
+ background-color: #123456;
+ display: flex;
+ flex-direction: row;
+}
+.profile img{
+ height: auto;
+ width: 200px;
+ display:inline;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 50%;
+ border: 1px solid: #987456;
+ box-shadow: 5px 5px 3px #ddd;
+}
+h2{
+  font-size: 30px;
+}
+hr{
+  size:25px;
+}
+
+.profile{
+ background-color: #fff;
+ font-size: 30px;
+ padding: 1%;
+ width: 30%;
+ margin: 1%;
+ text-align: center;
+}
+.content{
+ background-color: #987654;
+ padding: 1%;
+ margin: 1%;
+ width: 70%;
+}
+@media screen and(max-width:480px){
+ .main{
+ background: #ff0000;
+ display: flex;
+ flex-direction: row;
+}
+.profile img{
+ height: auto;
+ width: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 50%;
+ border: 1px solid: #000011;
+ box-shadow: 5px 5px 3px #ddd;
+}
+.profile{
+ background-color: #110000;
+ font-size: 30px;
+ padding: 1%;
+ width: 30%;
+ margin: 2%;
+ text-align: center;
+}
+.content{
+ background-color: #fff;
+ padding: 1%;
+ margin: 2%;
+ width: 70%;
+}
+}
+@media screen and (min-width:480px)(max-width:780px){
+ .main{
+ background: #ff0000;
+ display: flex;
+ flex-direction: row;
+}
+.profile img{
+ height: auto;
+ width: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 50%;
+ border: 1px solid: #000;
+ box-shadow: 5px 5px 3px #ddd;
+}
+.profile{
+ background-color: #fff;
+ font-size: 30px;
+ padding: 1%;
+ width: 30%;
+ margin: 2%;
+ text-align: center;
+}
+.content{
+ background-color:#inherit;
+ padding: 1%;
+ margin: 2%;
+ width: 70%;
+}
+}
+@media screen and (min-width:780px)(max-width:1024
+px){
+ .main{
+ background: #ff0000;
+ display: flex;
+ flex-direction: row;
+}
+.profile img{
+ height: auto;
+ width: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 50%;
+ border: 1px solid: #000;
+ box-shadow: 5px 5px 3px #ddd;
+}
+.profile{
+ background-color: #fff;
+ font-size: 30px;
+ padding: 1%;
+ width: 30%;
+ margin: 1%;
+ text-align: center;
+}
+.content{
+ background-color:#inherit;
+ padding: 1%;
+ margin: 1%;
+ width: 70%;
+}
 }
